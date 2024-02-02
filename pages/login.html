@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img\icon-site.png">
     <link rel="stylesheet" href="/css\style.css">
     <title>RecipeUp</title>
 </head>
@@ -16,10 +17,13 @@
             <h1>Login</h1>
             <input type="text" id="username" name="username" required placeholder="Insira seu usuário"> <br>
 
-            <input type="password" id="password" name="password" required placeholder="Insira sua senha"> <br><br>
+            <input type="password" id="password" name="password" required placeholder="Insira sua senha"> 
+            <img src="/img\icon-visivel.png" alt="" id="eyeIcon" onclick="togglePasswordVisibility()">
+            <br><br>
 
             <button type="submit">Entrar</button> <br><br>
 
+            <p>Ainda não tem uma conta? <a href="register.html">Cadastre-se!</a></p>
             <a href="">Esqueceu a senha?</a>
 
         </form>
